@@ -73,7 +73,7 @@ public class TimeTicker {
 	    return Toolkit.getDefaultToolkit().getImage(pathAndFileName);
 	}
 
-	public  void play()
+	public static void play()
 	{
 		try {
 			Clip clip = AudioSystem.getClip();
